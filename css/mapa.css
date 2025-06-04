@@ -1,0 +1,103 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f4f6f8;
+  color: #003148;
+  line-height: 1.6;
+}
+
+/* Título principal */
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Contenedor principal */
+main.contenedor {
+  max-width: 1500px;
+  margin: 40px auto;
+  padding: 30px 40px;
+  background-color: rgba(247, 245, 243, 0.85); /* semitransparente */
+  border-radius: 15px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+/* Sección formulario */
+section.formulario {
+  margin-bottom: 30px;
+}
+
+/* Número */
+input[type="number"] {
+  padding: 10px;
+  width: 80px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+/* Subtítulo */
+h3 {
+  margin: 20px 0 10px;
+  color: #268864;
+  font-weight: 700;
+}
+
+/* Grupo de checkboxes */
+.checkboxes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Botón */
+button {
+  padding: 12px 24px;
+  background: #248762;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Checkbox verde */
+input[type="checkbox"] {
+  accent-color: #248762;
+}
+
+/* Mapa */
+#map {
+  height: 500px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+/* Párrafos del contenido */
+p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}

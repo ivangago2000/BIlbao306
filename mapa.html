@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bilbao360</title>
+    <link rel="icon" href="./img/logo/logo.png" type="image/jpeg">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link href="./css/mapa.css" rel="stylesheet" >
+    <link href="./css/menu.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="menu">
+  <img src="./img/logo/logo.png" alt="Logo" class="logo">
+
+  <nav>
+    <div class="menu-links" id="menuLinks">
+      <a href="index.html">INICIO</a>
+      <a href="recursos.html">RECURSOS</a>
+      <a href="mapa.html">MAPA</a>
+      <a href="formulario.html">FORMULARIO</a>
+    </div>
+  </nav>
+
+  <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+    ☰
+  </button>
+</div>
+
+    <main class="contenedor">
+        <section class="formulario">
+
+            <h3>¿Qué te interesa buscar?</h3>
+            <div class="checkboxes">
+                <label><input type="checkbox" id="restaurantes" checked> Restaurantes</label>
+                <label><input type="checkbox" id="museos"> Museos</label>
+                <label><input type="checkbox" id="parques"> Parques</label>
+                <label><input type="checkbox" id="monumentos"> Monumentos</label>
+            </div>
+
+            <button id="generar">Buscar</button>
+        </section>
+
+        <div id="map"></div>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="js/mapa.js"></script>
+    <script src="js/itinerario.js"></script>
+</body>
+
+</html>
+
+
