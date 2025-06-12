@@ -79,3 +79,39 @@ button[type="submit"]:hover {
   background-color: #1e6f50;
 }
 
+
+
+/* --- Responsive para móviles --- */
+@media (max-width: 600px) {
+  .contenido {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .texto-central {
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .texto-central h1 {
+    font-size: 2rem;
+  }
+
+  form {
+    padding: 0 10px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 0.95rem;
+    padding: 10px 12px;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
+
+
