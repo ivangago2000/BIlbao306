@@ -59,14 +59,16 @@ const lugares = [
 
     { nombre: "Playa de La Arena", tipo: "playas", lat: 43.3477, lng: -3.1183 },
     { nombre: "Playa de Ereaga", tipo: "playas", lat: 43.344622, lng: -3.012481 },
-    { nombre: "Playa La Salvaje", "tipo": playas, lat: 43.3829, lng: -3.0053 },
+    { nombre: "Playa de Arrigunaga", tipo: "playas", lat: 43.3561, lng: -3.0194 },
+    { nombre: "Playa de La Salvaje", tipo: "playas", lat: 43.3824, lng: -3.0061 },
     { nombre: "Playa de Plentzia / Gorliz", tipo: "playas", lat: 43.413611, lng: -2.945833 },
     { nombre: "Playa de Bakio", "tipo": "playas", "lat": 43.4302, "lng": -2.8046 },
     { nombre: "Playa de Mundaka (Laidatxu)", "tipo": "playas", "lat": 43.4047, "lng": -2.6993 },
     { nombre: "Playa de Sukarrieta", tipo: "playas", lat: 43.3863, lng: -2.69014 },
+    { nombre: "Playa de Laida", tipo: "playas", lat: 43.407100, lng: -2.678200 },
     { nombre: "Playa de Laga", tipo: "playas", lat: 43.409200, lng: -2.656599 },
     { nombre: "Playa de Isuntza", tipo: "playas", lat: 43.36288, lng: -2.50068 },
-    { nombre: "Playa de Saturrarán", tipo: "playas", lat: 43.3217, lng: -2.4103 },
+    { nombre: "Playa de Arrigorri", tipo: "playas", lat: 43.3231, lng: -2.4191 },
 
 
     { nombre: "Pagasarri", tipo: "montes", lat: 43.218611, lng: -2.943056 },
