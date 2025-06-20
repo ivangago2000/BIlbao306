@@ -45,7 +45,7 @@ const lugares = [
     { nombre: "Castillo de Butrón", tipo: "monumentos", lat: 43.3717, lng: -2.9146 },
     { nombre: "Cueva de Santimamiñe", tipo: "monumentos", lat: 43.3456, lng: -2.6368 },
     { nombre: "Castillo de Arteaga", tipo: "monumentos", lat: 43.3521, lng: -2.65399 },
-    { nombre: "Santa Katalina Itsasargia", tipo: "monumentos", lat: 43.3767, lng: -2.5100 },
+    { nombre: "Faro Santa Katalina", tipo: "monumentos", lat: 43.3767, lng: -2.5100 },
 
 
     { nombre: "Parque de Doña Casilda", tipo: "parques", lat: 43.2642, lng: -2.9457 },
